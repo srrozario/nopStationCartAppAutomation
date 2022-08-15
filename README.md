@@ -91,7 +91,7 @@ After Appium is set up and configured and has mobile devices managed, you can co
 # Appium Inspector to Identify Elements
 1.	Appium Inspector download & install
 2.	Configure Appium Desktop client & Appium Inspector
-#### •	Appium Desktop
+#### Appium Desktop
 o	Go to Advanced option of Appium Server and set the following values:
 - Server address: localhost 
 - Port: 4723
@@ -107,4 +107,3 @@ Now, Open Appium Inspector and follow the following steps
 -	Start Appium Server GUI
 -	Appium Inspector will open
 
-![](C:\Users\rozar\OneDrive\Desktop\video\2022-07-31_22-42-58.mp4)

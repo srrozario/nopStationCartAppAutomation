@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64868d6d-c4da-45fc-be55-3ce53b38b10e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="64868d6d-c4da-45fc-be55-3ce53b38b10e" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BaseTestNopStationCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BaseTestNopStationCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/AddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/AddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/CategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/CategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ElectronicsCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ElectronicsCategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/OrderConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/OrderConfirmationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/PaymentInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/PaymentInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ProductDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ProductDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ShippingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ShippingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ShoppingCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/AddToCartProductAsGuestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/AddToCartProductAsGuestUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/OrderProductFromCartPageAsGuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/OrderProductFromCartPageAsGuest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/util/GeneralUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/util/GeneralUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +74,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/rozar/OneDrive/Desktop/JavaProject/4.png",
+    "last_opened_file_path": "C:/Users/rozar/OneDrive/Desktop/video/2022-07-31_22-42-58.mp4",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -181,6 +165,21 @@
       <option name="presentableId" value="Default" />
       <updated>1659417065406</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1660549880290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660549880290</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1660549916424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660549916424</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +192,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
