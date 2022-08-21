@@ -27,7 +27,7 @@ https://www.oracle.com/java/technologies/javase-downloads.html
 Run the installer and follow the instructions you will see on the screen.
 
 2. Specify the path to your JDK version in the JAVA_HOME environment variable. To do this, open the Control Panel, search for “environment variables”, in the subsequent dialog, click Environment Variables, and then set the variable value:
-![](D:\Media\SQA Learning Academy Intel\nopStationCartAppAutomation\images\1.png)
+![1.png](D:\Media\SQA Learning Academy Intel\nopStationCartAppAutomation\images\1.png)
 The JAVA_HOME environment variable
 ### 2. Install NodeJS and NPM
    Download the installation packages from this website:
@@ -55,7 +55,7 @@ https://developer.android.com/studio/
 Run the installer and follow the instructions you will see on the screen.
 
 When installing, make sure to select the Android Virtual Device component:
-![](C:\Users\rozar\OneDrive\Desktop\JavaProject\2.png)
+![test](C:\Users\rozar\OneDrive\Desktop\JavaProject\2.png "test")
 
 The Android Virtual Device option
 ### 5. Configure Android virtual devices
