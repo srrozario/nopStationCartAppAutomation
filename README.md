@@ -136,7 +136,7 @@ Here two test scenarios are covered, the scenarios are:
 
 
 #### Scenario: 02 Customer successfully place order as a guest user
-- Given: Customer go to shopping cart by clicking top cart icon
+- Given: Customer goes to shopping cart by clicking top cart icon
 - When: Customer clicks checkout button from shopping cart page
 - And: Customer selects checkout as guest from shopping cart page
 - Then: Customer inputs all the details in checkout billing details page and click continue
