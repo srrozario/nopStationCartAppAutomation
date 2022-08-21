@@ -113,4 +113,4 @@ Now, Open Appium Inspector and follow the following steps
 
 # Test Apk
 Please download and install the apk to you android mobile device
-[](./src/test/resources)
+[](https://github.com/srrozario/srrozario-nopStationCartAppAutomation/tree/main/src/test/resources)
