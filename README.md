@@ -28,7 +28,7 @@ Run the installer and follow the instructions you will see on the screen.
 
 2. Specify the path to your JDK version in the JAVA_HOME environment variable. To do this, open the Control Panel, search for “environment variables”, in the subsequent dialog, click Environment Variables, and then set the variable value:
 
-![](D:\Media\SQA Learning Academy Intel\nopStationCartAppAutomation\images\image1.png)
+![](./images/image1.png)
 
 The JAVA_HOME environment variable
 ### 2. Install NodeJS and NPM
@@ -57,7 +57,7 @@ https://developer.android.com/studio/
 Run the installer and follow the instructions you will see on the screen.
 
 When installing, make sure to select the Android Virtual Device component:
-![test](C:\Users\rozar\OneDrive\Desktop\JavaProject\2.png "test")
+![test](./images/image2.png)
 
 The Android Virtual Device option
 ### 5. Configure Android virtual devices
@@ -77,7 +77,7 @@ Note:	Select the latest available version.
 Android SDK Platform-Tools
 Intel x86 Emulator Accelerator (HAXM installer)
 Copy the value of the Android SDK Location box at the top of the SDK Manager dialog. We will need this value later:
-![](C:\Users\rozar\OneDrive\Desktop\JavaProject\3.png)
+![](./images/image3.png)
 
 
 Close the SDK Manager.
@@ -86,7 +86,7 @@ Close the SDK Manager.
 If the dialog doesn’t list the device you need, click Create Virtual Device and create the needed device emulator.
 
 4. To create and run tests, you need to specify the path to Android SDK files (the one that the “Android SDK Location” text box displayed) in the ANDROID_HOME environment variable: open the Control Panel, search for “environment variables”, in the subsequent dialog, click Environment Variables, and then set the variable value. If the variable doesn’t exist, add it to the “System variables” list:
-![](C:\Users\rozar\OneDrive\Desktop\JavaProject\4.png)
+![](./images/image4.png)
 
 After Appium is set up and configured and has mobile devices managed, you can connect to it from your TestComplete computer to create and run tests.
 
@@ -94,18 +94,23 @@ After Appium is set up and configured and has mobile devices managed, you can co
 1.	Appium Inspector download & install
 2.	Configure Appium Desktop client & Appium Inspector
 #### Appium Desktop
-o	Go to Advanced option of Appium Server and set the following values:
-- Server address: localhost 
+- Go to Advanced option of Appium Server and set the following values:
+- Server address: localhost (or 0.0.0.0)
 - Port: 4723
 - Allow CORP: yes
 
+![](./images/image5.png)
 ### Appium Inspector
 Now, Open Appium Inspector and follow the following steps
--	Set Remote host: localhost
--	Set Port: 4723
--	Set Path: /wd/hub
--	Allow Unauthorized Certificates
--	Set your mobile app capabilities  
--	Start Appium Server GUI
--	Appium Inspector will open
+- Set Remote host: localhost
+- Set Port: 4723
+- Set Path: /wd/hub
+- Allow Unauthorized Certificates
+- Set your mobile app capabilities  
+- Start Appium Server GUI
+- Appium Inspector will open and you will be all inspect the mobile elements
+![](./images/image6.png)
 
+# Test Apk
+Please download and install the apk to you android mobile device
+[](./src/test/resources)
