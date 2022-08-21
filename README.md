@@ -90,6 +90,9 @@ If the dialog doesn’t list the device you need, click Create Virtual Device an
 
 After Appium is set up and configured and has mobile devices managed, you can connect to it from your TestComplete computer to create and run tests.
 
+# Create a new or open an existing Java(gradle) project
+[Please visit this link to know about how to open a new Java(gradle) project using IntelliJ IDEA](https://www.jetbrains.com/help/idea/getting-started-with-gradle.html#create_project)
+
 # Appium Inspector to Identify Elements
 1.	Appium Inspector download & install
 2.	Configure Appium Desktop client & Appium Inspector
@@ -111,6 +114,39 @@ Now, Open Appium Inspector and follow the following steps
 - Appium Inspector will open and you will be all inspect the mobile elements
 ![](./images/image6.png)
 
-# Test Apk
-Please download and install the apk to you android mobile device
-[](https://github.com/srrozario/srrozario-nopStationCartAppAutomation/tree/main/src/test/resources)
+# Run the test Apk to your android mobile device
+Please download and install the
+[apk](https://github.com/srrozario/srrozario-nopStationCartAppAutomation/tree/main/src/test/resources) to you android mobile device
+and connect the android device via adb
+
+# Run Test Cases
+To run the test cases, go to the desired package where all the test cases (java classes) are written and right click on
+the desired java class and click on Run
+
+# Test Scenarios
+Here two test scenarios are covered, the scenarios are:
+#### Scenario: 01 Customer add products in his shopping cart
+
+- Given: Customer on home page after opening nopCart mobile app
+- When: Customer clicks "electronics" from our categories list from home page
+- And: Customer clicks to "Nokia Lumia 1020" product details page
+- Then: Customer selects size "Large" from product details page
+- And: Customer clicks plus button to increase Qty by "2"
+- Then: Customer clicks add to cart button to add the product in his cart as a guest user
+
+
+#### Scenario: 02 Customer successfully place order as a guest user
+- Given: Customer go to shopping cart by clicking top cart icon
+- When: Customer clicks checkout button from shopping cart page
+- And: Customer selects checkout as guest from shopping cart page
+- Then: Customer inputs all the details in checkout billing details page and click continue
+- And: Customer selects "Next Day Air" as shipping method and click continue
+- And: Customer selects "Check/Money Order" as payment method and click continue
+- And: Customer clicks next button on payment information page
+- Then: Customer clicks confirm button to place the order
+- And: Customer successfully place order as a guest user
+
+# Helpful Resources
+- [appium.io](https://appium.io/docs/en/about-appium/api/)
+- [selenium.dev](https://www.selenium.dev/documentation/webdriver/)
+- [appium inspector web version](https://inspector.appiumpro.com/)
