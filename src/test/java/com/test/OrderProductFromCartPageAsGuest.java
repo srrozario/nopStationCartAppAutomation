@@ -2,6 +2,7 @@ package com.test;
 
 import com.BaseTestNopStationCart;
 import com.pages.HomePage;
+import com.thedeanda.lorem.LoremIpsum;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -31,18 +32,18 @@ public class OrderProductFromCartPageAsGuest extends BaseTestNopStationCart {
                 .tapOnCartIconClick()
                 .tapOnCheckoutBtn()
                 .tapOnContinueAsGuestBtn()
-                .insertFirstName()
-                .insertLastName()
-                .insertEmail()
+                .insertFirstName(LoremIpsum.getInstance().getFirstName())
+                .insertLastName(LoremIpsum.getInstance().getLastName())
+                .insertEmail("qa@test.com")
                 .clickOnCountry()
                 .selectCountry()
                 .clickOnState()
                 .selectState()
-                .insertCompanyName()
-                .scrollAndInsertCity()
-                .insertStreetAddress()
-                .insertZipCode()
-                .insertPhoneNumber()
+                .insertCompanyName("test company")
+                .scrollAndInsertCity("dhaka")
+                .insertStreetAddress("21 test street")
+                .insertZipCode("1232")
+                .insertPhoneNumber("212645664")
                 .clickOnContinueBtn()
                 .scrollAndClickOnNextDayAir()
                 .clickOnBtnContinue()

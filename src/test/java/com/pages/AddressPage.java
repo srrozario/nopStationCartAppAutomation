@@ -11,10 +11,10 @@ import java.time.Duration;
 public class AddressPage extends BaseTestNopStationCart {
 
     @AndroidFindBy(id ="etFirstName")
-    WebElement firstName;
+    WebElement firstNameEl;
 
     @AndroidFindBy(id ="etLastName")
-    WebElement lastName;
+    WebElement lastNameEl;
 
     @AndroidFindBy(id ="etEmail")
     WebElement email;
@@ -55,21 +55,21 @@ public class AddressPage extends BaseTestNopStationCart {
         PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(GeneralUtil.LOAD_TIME)), this);
     }
 
-    public AddressPage insertFirstName (){
-        firstName.isDisplayed();
-        firstName.sendKeys("Sajib");
+    public AddressPage insertFirstName (String firstName){
+        firstNameEl.isDisplayed();
+        firstNameEl.sendKeys(firstName);
         return this;
     }
 
-    public AddressPage insertLastName (){
-        lastName.isDisplayed();
-        lastName.sendKeys("Test");
+    public AddressPage insertLastName (String lastName){
+        lastNameEl.isDisplayed();
+        lastNameEl.sendKeys(lastName);
         return this;
     }
 
-    public AddressPage insertEmail (){
+    public AddressPage insertEmail (String emailAddress){
         email.isDisplayed();
-        email.sendKeys("sajib@test.com");
+        email.sendKeys(emailAddress);
         return this;
     }
 
@@ -97,34 +97,34 @@ public class AddressPage extends BaseTestNopStationCart {
         return this;
     }
 
-    public AddressPage insertCompanyName (){
+    public AddressPage insertCompanyName (String company){
         typeCompanyName.isDisplayed();
-        typeCompanyName.sendKeys("XYZ Ltd.");
+        typeCompanyName.sendKeys(company);
         return this;
     }
 
-    public AddressPage scrollAndInsertCity (){
+    public AddressPage scrollAndInsertCity (String cityName){
         scrollToMiddle();
         typeCityName.isDisplayed();
-        typeCityName.sendKeys("Test");
+        typeCityName.sendKeys(cityName);
         return this;
     }
 
-    public AddressPage insertStreetAddress (){
+    public AddressPage insertStreetAddress (String streetAddress){
         typeStreetName.isDisplayed();
-        typeStreetName.sendKeys("21 Test Street");
+        typeStreetName.sendKeys(streetAddress);
         return this;
     }
 
-    public AddressPage insertZipCode (){
+    public AddressPage insertZipCode (String zipCode){
         typeZipCode.isDisplayed();
-        typeZipCode.sendKeys("2142");
+        typeZipCode.sendKeys(zipCode);
         return this;
     }
 
-    public AddressPage insertPhoneNumber (){
+    public AddressPage insertPhoneNumber (String phoneNumber){
         typePhoneNumber.isDisplayed();
-        typePhoneNumber.sendKeys("24366142");
+        typePhoneNumber.sendKeys(phoneNumber);
         return this;
     }
 
